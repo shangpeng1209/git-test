@@ -1,0 +1,46 @@
+//
+//  QHB_Pre.pch
+//  原油期货宝
+//
+//  Created by 尚朋 on 16/7/19.
+//  Copyright © 2016年 jnhyxx. All rights reserved.
+//
+
+#ifndef QHB_Pre_pch
+#define QHB_Pre_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "URL_header.h"
+#import "QHB_Pre.pch"
+#import "Macro_header.h"
+#import "UserDefaults.h"
+
+//UIView 扩展
+#import "UIView+Layout.h"
+#import "UIImage+Layout.h"
+/**
+ *  三方库头文件
+ */
+#import "AFNetworking.h"
+#import "NSString+MD5.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+
+
+
+//封装文件
+#import "SHPNetWorking.h"
+#import "UIColor+Expanded.h"
+#import "DataUsedEngine.h"
+#import "Helper.h"
+#import "UIEngine.h"
+#import "UIView+Layout.h"
+#import "Header.h"
+#import "TouchScrollView.h"
+
+
+
+#endif /* QHB_Pre_pch */
