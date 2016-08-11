@@ -25,7 +25,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"test");
+    NSLog(@"test-------");
     
     //NSNotification * no = [NSNotification alloc]init
     //[NSNotificationCenter defaultCenter]postNotification:<#(nonnull NSNotification *)#>
